@@ -1,0 +1,147 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/SolaimanLipi.ttf);
+}
+body{
+    width:100%;
+    overflow-y:hidden;
+    overflow-x:hidden; 
+    margin:0 auto;
+    //background-image: url('../img/platform5.jpg');
+    background-size:100% 1100px;
+    background-color:#000;
+    //opacity:0.95;
+    font-family: myFirstFont;
+}
+.page_header{
+    width:100%;
+    margin:0 auto;
+    height: 120px;
+    line-height:120px; /*  this is what you must define */
+    vertical-align: middle;
+    margin:0px 0 1px 0;
+    font-size:45px;
+    text-align: center;
+}
+table{
+    font-size:30px;
+    text-align:center;
+    border-collapse: separate;
+    border-spacing: 1px 10px;
+    width:100%;
+    //background-color:#000;
+    color:#fff;
+}
+td{
+    border-left:1px dotted #cccccc ;
+    border-right:1px dotted #cccccc ;
+    border-top:1px solid #fff ;
+    border-bottom:1px solid #fff ;
+}
+td:nth-child(1){
+    border-left:0px dotted #cccccc ;
+}
+td:nth-child(6){
+    border-right:0px dotted #cccccc ;
+}
+th:nth-child(1){
+    border-left:0px dotted #cccccc ;
+}
+th:nth-child(6){
+    border-right:0px dotted #cccccc ;
+}
+
+th{text-align:center;border-left:1px dotted #cccccc ;
+   border-right:1px dotted #cccccc ;
+   border-top:2px solid #cccccc ;
+   border-bottom:2px solid #cccccc ;}
+
+th{text-align:center;font-weight:bold;}		
+
+.marquee_bottom{ 
+    position:fixed;
+    height: 100px;
+    line-height:100px; /* this is what you must define */
+    vertical-align: middle;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+    font-size:35px;
+
+    //background-color:#006666;
+    //color:#FFFFFF;
+}
+
+
+@font-face{
+    font-family:clock;
+    src:url(fonts/digital-7.ttf);
+}
+#clock1{ 	
+    width:13%;
+    height: 100px;
+    line-height:25px; /* this is what you must define */
+    vertical-align: middle;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    margin-bottom:0px;	
+    z-index:5;
+    border: 2px inset White; 
+    background: Black; 
+    padding:15px;
+    font-size:20px; 
+    font-family:clock; 
+    font-weight:bold;
+    color: LightGreen; 					 
+    display: block; 
+    text-align:center;
+}
+
+html{
+    width: 100%;height: 100%;
+    position: relative;
+}
+/*
+
+html,body {
+width: 100%;height: 100%;
+        position: relative;
+        overflow: hidden;	
+        -moz-animation-name: dropHeader;
+        -moz-animation-iteration-count: 1;
+        -moz-animation-timing-function: ease-in;
+        -moz-animation-duration: 0.3s;	
+
+        -webkit-animation-name: dropHeader;
+        -webkit-animation-iteration-count: 1;
+        -webkit-animation-timing-function: ease-in;
+        -webkit-animation-duration:1s;
+        /*
+        animation-name: dropHeader;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 0.3s;*/
+}
+/*
+@keyframes dropHeader {   
+        0% {
+                left:40%; 
+                top:200px;
+                width:1%;
+                height:1%;
+                transform: rotate(360deg);				
+                }
+   100% {
+                width: 100%;
+                height: 100%;
+                transform: rotate(0deg);
+                }
+*/
+
+.middle{height:auto;width:30%;margin:0 auto;border-radius:10px;
+        text-align:center;padding:20px;margin-top:50px;
+        box-shadow:-2px 2px 15px #ccc,2px 2px 15px #ccc,2px -2px 15px #ccc,-2px -2px 15px #ccc;
+}
+.middle h1{margin-top:0;font-size:22px;text-transform: uppercase;} 

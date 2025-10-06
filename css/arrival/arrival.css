@@ -1,0 +1,25 @@
+* {cursor: none;}
+.page_header{
+	background-color:#0000CD; color:#fff;               
+}
+
+th{background-color:#33CCFF;color:#000;}
+tr:nth-child(even){background-color:#00008B;}
+tr:nth-child(odd){background-color:#0000CD;}
+.artslogo{
+                 position:fixed;
+	height:100px;
+	width:200px;
+	bottom:0px;
+	left:0px;
+	margin-bottom:0px;	
+	z-index:9999;
+}
+
+.marquee_bottom{ 
+	background-color:#0000CD; color:#fff;
+	 border-top:2px solid #33CCFF;
+}
+td{
+	//background-color:#00008B;
+}

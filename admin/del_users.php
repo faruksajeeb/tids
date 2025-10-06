@@ -1,0 +1,20 @@
+<?php
+include_once('pagesession.php'); 
+include_once('dbconnect.php');
+$idd=$_GET['id'];
+$user=$_GET['user'];
+$username=$_SESSION['user_name'];
+$ip_addr=$_SERVER['REMOTE_ADDR'];
+$auditQry = "INSERT into tbl_auditor(username,ipaddr,description,train_no,action)
+  VALUES ('$username','$ip_addr','Delete user into admin table','$user','Delete')";
+$audit_result=mysql_query($auditQry);
+
+
+
+
+
+
+$q="delete from tbl_admin where ID=".$_GET['id']."";
+$r=mysql_query($q);
+header("location:admin_users.php");
+?>

@@ -1,0 +1,106 @@
+@font-face {
+		font-family: myFirstFont;
+		src: url(../fonts/SolaimanLipi.ttf);
+	}
+        * {cursor: none;}
+        body{
+            	font-family: myFirstFont;
+                /* background-image: url('../img/loading3.gif'); */
+                 background-color: #000; 
+                 background-repeat: no-repeat; 
+                 background-size:100% 100%;
+        }
+#idle_video{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: 100%    !important;
+        height: auto   !important;
+        z-index: -100;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url(polina.jpg) no-repeat;
+        background-size: cover;
+}
+         #intermission_message{         
+         position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;      
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+               background-color: #000;
+               z-index:1;
+
+      
+            }
+.bottom{ 
+        position:fixed;
+        height: 70px;
+        line-height: 70px; /*this is what you must define */
+        vertical-align: middle;
+        bottom:10px;
+      
+        left:0px;
+        right:0px;
+        margin-bottom:0px;       
+       //background-color:#003366;      
+        color:#FFFFFF;
+        opacity:0.8;
+          z-index:5;	
+}
+/*
+.blink{
+        text-align:center;
+        margin-left:35%;
+	}
+*/
+
+#message{
+	opacity:1;
+	/*position:fixed; */
+	font-size:100px;
+	color:red;
+	font-weight:bold;
+margin-top: 22%;
+  //margin-top:20%;
+
+	/* right:500px; */
+        /*background-color: #000; */
+	
+	z-index:-10;
+}
+#latest{
+	position:fixed;
+	height:100px;
+	width:11%;
+	line-height: 100px; /*  this is what you must define */
+	vertical-align: middle;
+	bottom:5px;
+	left:0px;
+	margin-bottom:0px;	
+	z-index:9999;
+	background-color:#fff;
+	color:#003366;
+	font-size:55px;
+	padding-left:20px;	
+}
+
+            #tvc_news_tickers{
+                padding:5px;
+                border-radius: 5px;
+                background-color:#003366;
+            }
+            #time{
+                width:200px;
+                font-size:15px; 
+                font-family:clock; 
+                font-weight:bold;
+                z-index:-5;
+                color: LightGreen;                
+            }

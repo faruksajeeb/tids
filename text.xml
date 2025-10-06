@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libraray>
+		<train_schedule>
+		<train_name>উপকুল এক্সপ্রেস</train_name>
+		<link>উপকুল এক্সপ্রেস</link>
+		<description>chi</description>
+		<pubDate>12</pubDate>
+		</train_schedule>
+	<train_schedule>
+		<train_name>সুবর্ণ এক্সপ্রেস</train_name>
+		<link>সুবর্ণ এক্সপ্রেস</link>
+		<description>Dhaka</description>
+		<pubDate>12:45000</pubDate>
+		</train_schedule>
+	<train_schedule>
+		<train_name>উপকুল এক্সপ্রেস</train_name>
+		<link>উপকুল এক্সপ্রেস</link>
+		<description>dddddddddddddddd</description>
+		<pubDate>ddddddddddddddd</pubDate>
+		</train_schedule>
+	<train_schedule>
+		<train_name>উপকুল এক্সপ্রেস</train_name>
+		<link>উপকুল এক্সপ্রেস</link>
+		<description>নোয়াখালী</description>
+		<pubDate>০৬ঃ০০</pubDate>
+		</train_schedule>
+	<train_schedule>
+		<train_name>সুবর্ণ এক্সপ্রেস</train_name>
+		<link>সুবর্ণ এক্সপ্রেস</link>
+		<description>কমলাপুর</description>
+		<pubDate>১০ঃ০৪</pubDate>
+		</train_schedule>
+	<train_schedule>
+		<train_name>কালনি এক্সপ্রেস</train_name>
+		<link>কালনি এক্সপ্রেস</link>
+		<description>চট্রগ্রাম</description>
+		<pubDate>১৬ঃ৩০</pubDate>
+		</train_schedule>
+	<train_schedule>
+		<train_name>উপবন এক্সপ্রেস</train_name>
+		<link>উপবন এক্সপ্রেস</link>
+		<description>চট্রগ্রাম</description>
+		<pubDate>১৬ঃ৩০</pubDate>
+		</train_schedule>
+	</libraray>
