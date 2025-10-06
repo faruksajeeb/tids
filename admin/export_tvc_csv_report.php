@@ -1,0 +1,34 @@
+<script>
+$("#btnExport").click(function (e) {
+    window.open('data:application/vnd.ms-excel,' + $('#dvData').html());
+    e.preventDefault();
+});
+</script>
+<input type="button" id="btnExport" value=" Export Table data into Excel " />
+<br/>
+<br/>
+<div id="dvData">
+    <table>
+        <tr>
+            <th>Column One</th>
+            <th>Column Two</th>
+            <th>Column Three</th>
+        </tr>
+        <tr>
+            <td>row1 Col1</td>
+            <td>row1 Col2</td>
+            <td>row1 Col3</td>
+        </tr>
+        <tr>
+            <td>row2 Col1</td>
+            <td>row2 Col2</td>
+            <td>row2 Col3</td>
+        </tr>
+        <tr>
+            <td>row3 Col1</td>
+            <td>row3 Col2</td>
+            <td><a href="http://www.jquery2dotnet.com/">http://www.jquery2dotnet.com/</a>
+            </td>
+        </tr>
+    </table>
+</div>

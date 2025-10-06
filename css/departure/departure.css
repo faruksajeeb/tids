@@ -1,0 +1,25 @@
+ * {cursor: none;}
+            body{}
+            .page_header{
+                background-color:#ffff00; color:#000;
+            }
+            th{background-color:#FF8C00; color:#000;}
+            tr:nth-child(odd){background-color:#FFD700; color:#000;}
+            tr:nth-child(even){background-color:#ffff00; color:#000;}
+            
+.artslogo{ 
+    position:fixed;
+    height:100px;
+    width:200px;
+    bottom:0px;
+    left:0px;
+    margin-bottom:0px;	
+    z-index:9999;
+}
+            .marquee_bottom{ 
+                background-color:#ff0 ; color:#000;
+                border-top:2px solid #ccc;
+            }
+            td{
+                //background-color:#800000;
+            }
